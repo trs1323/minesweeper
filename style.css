@@ -1,0 +1,114 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#bombs-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border: rgb(83, 83, 83) solid 1px;
+}
+
+#flags-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border: rgb(83, 83, 83) solid 1px;
+}
+
+.grid{
+    height: 440px;
+    width: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    background: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.grid div{
+    display: flex;
+    height: 42px;
+    width: 42px;
+    border: darkgray solid 1px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.checked{
+    background-color: rgb(216, 216, 216);
+}
+
+[data="1"]{
+    color: rgb(34, 34, 128);
+}
+
+[data="2"]{
+    color: rgb(167, 37, 37);
+}
+
+[data="3"]{
+    color: rgb(184, 103, 10);
+}
+
+[data="4"]{
+    color: rgb(93, 25, 124);
+}
+
+[data="5"]{
+    color: rgb(49, 138, 31);
+}
+
+[data="6"]{
+    color: rgb(153, 37, 143);
+}
+
+[data="7"]{
+    color: rgb(236, 240, 40);
+}
+
+[data="8"]{
+    color: rgb(47, 206, 193);
+}
+
+.reset{
+    margin-top: 1rem;
+}
+
+.reset button{
+    background: rgb(99, 97, 97);
+    padding: 10px;
+    color: white;
+    border: none;
+    
+}
+
+.reset button:hover{
+    background: rgb(122, 121, 121);
+    cursor: pointer;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,0.20); 
+}
+
+.hidden{
+    opacity: 0;
+}
